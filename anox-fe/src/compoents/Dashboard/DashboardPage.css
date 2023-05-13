@@ -1,0 +1,67 @@
+.DashboardPage {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.DashboardPage-header {
+  background-color: #282c34;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 20px 20px 20px;
+  color: white;
+}
+
+.DashboardPage-leftSideFacet {
+  background-color: #5b8cf3;
+  min-height: 100vh;
+  min-width: 40vh;
+  float: left;
+  padding: 20px 20px 20px;
+}
+
+.DashboardPage-topRightSideMenu {
+  background-color: #282c34;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  min-height: 5vh;
+  min-width: 100vh;
+  float: top;
+}
+.top-rt-menu-wrapper {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-rt-menu-btn-wrapper, .current-user-in-session {
+  display: inline-block;
+  margin-top: 1vh;
+  margin-right: 3vh;
+  float: right;
+}
+
+.DashboardPage-imageContainer {
+  margin-top: 3vh;
+  padding: 5px 5px 5px 5px;
+  position: center;
+}
+
+.DashboardPage-link {
+  color: #61dafb;
+}
+
